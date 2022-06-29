@@ -1,0 +1,45 @@
+.statistics {
+  border-radius: 15px;
+  background: linear-gradient(
+    0deg,
+    rgb(115, 207, 240) 42%,
+    rgb(190, 236, 253) 100%
+  );
+  margin: 10px;
+  box-shadow: 4px 4px 17px 5px rgba(63, 82, 96, 0.3);
+}
+.title {
+  text-align: center;
+  color: white;
+  text-shadow: 0 1px 1px #2d2020;
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', Sans-Serif;
+}
+.statList {
+  display: flex;
+}
+span {
+  display: block;
+  margin: 5px;
+}
+.item {
+  width: 70px;
+  padding: 15px 5px 0 5px;
+  text-align: center;
+  background-color: #7bdcff;
+}
+.item:first-child {
+  border-radius: 0 0 0 15px;
+}
+.item:last-child {
+  border-radius: 0 0 15px 0;
+}
+.label {
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', Sans-Serif;
+  font-size: 16px;
+}
+.percentage {
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', Sans-Serif;
+  color: white;
+  text-shadow: 0 1px 1px #2d2020;
+  font-size: 24px;
+}
